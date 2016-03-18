@@ -1,32 +1,31 @@
-module.exports = ResourceModel;
+(function() {
+    angular.module('resource-model', [])
+        .factory('ResourceModel', resourceModel)
 
-ResourceModel.$inject = ['$resource'];
+    resourceModel.$inject = ['$resource'];
 
-function ResourceModel($resource){
-	return {
-		create: create
-	};
+    function resourceModel($resource) {
+        return function (conf) {
+            var actions = angular.extend({
+                get: {
+                    method: 'GET'
+                },
+                query: {
+                    method: 'GET',
+                    isArray: true
+                },
+                put: {
+                    method: 'PUT'
+                },
+                post: {
+                    method: 'POST'
+                },
+                delete: {
+                    method: 'DELETE'
+                }
+            }, conf.actions);
 
-	function create(conf){
-		var actions = angular.extend({
-			get: {
-				method: 'GET'
-			},
-			query:{
-				method: 'GET',
-				isArray: true
-			},
-			put:{
-				method: 'PUT'
-			},
-			post: {
-				method: 'POST'
-			},
-			delete:{
-				method: 'DELETE'
-			}
-		}, conf.actions);
-
-		return $resource(conf.url || '', conf.params || {}, actions);
-	}
-}
+            return $resource(conf.url || '', conf.params, actions);
+        }
+    }
+} ());

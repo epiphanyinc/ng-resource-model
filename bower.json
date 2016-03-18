@@ -1,0 +1,11 @@
+{
+  "name": "angular-resource-model",
+  "homepage": "https://github.com/henriquecustodia/angular-resource-model",
+  "authors": [
+    "Henrique Custodia Martins <martinshenrique8@gmail.com>"
+  ],
+  "description": "",
+  "main": "resource-model.js",
+  "moduleType": [],
+  "license": "MIT"
+}

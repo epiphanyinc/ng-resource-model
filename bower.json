@@ -1,12 +1,18 @@
 {
-  "name": "angular-resource-model",
-  "homepage": "https://github.com/henriquecustodia/angular-resource-model",
-  "author": {
-      "name": "Henrique Custódia Martins",
-      "email": "martinshenrique8@gmail.com"
-  },
+  "name": "yoda-resource-model",
+  "homepage": "https://github.com/henriquecustodia/yoda-resource-model",
+  "authors": [
+    "Henrique Custodia Martins <henrique.martins@thomsonreuters.com>"
+  ],
   "description": "",
-  "main": "dev/resource-model.js",
+  "main": "",
   "moduleType": [],
-  "license": "MIT"
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }

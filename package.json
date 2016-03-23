@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/henriquecustodia/yoda-resource-model/issues"
   },
-  "homepage": "https://github.com/henriquecustodia/yoda-resource-model#readme"
+  "homepage": "https://github.com/henriquecustodia/yoda-resource-model#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify": "0.0.7"
+  }
 }

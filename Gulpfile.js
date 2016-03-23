@@ -1,6 +1,5 @@
 const gulp = require('gulp'),
-      minify = require('gulp-minify')
-      rename = require('gulp-rename');
+      minify = require('gulp-minify');
       
       
 gulp.task('build', function () {

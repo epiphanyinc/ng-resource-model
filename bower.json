@@ -1,18 +1,24 @@
 {
-  "name": "yoda-resource-model",
-  "homepage": "https://github.com/henriquecustodia/yoda-resource-model",
-  "authors": [
-    "Henrique Custodia Martins <henrique.martins@thomsonreuters.com>"
-  ],
-  "description": "",
-  "main": "",
-  "moduleType": [],
-  "license": "MIT",
-  "ignore": [
-    "Gulpfile.js", 
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+    "name": "yoda-resource-model",
+    "homepage": "https://github.com/henriquecustodia/yoda-resource-model",
+    "authors": [
+        "Henrique Custodia Martins <henrique.martins@thomsonreuters.com>"
+    ],
+    "keywords": [
+        "resource",
+        "angular",
+        "model",
+        "yoda"
+    ],
+    "description": "",
+    "main": "",
+    "moduleType": [],
+    "license": "MIT",
+    "ignore": [
+        "Gulpfile.js",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
 }

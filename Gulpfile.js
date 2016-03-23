@@ -3,9 +3,9 @@ const gulp = require('gulp'),
       
       
 gulp.task('build', function () {
-   gulp.src('dev/resource-model.js')
+   gulp.src('release/resource-model.js')
    .pipe(minify())
-   .pipe(gulp.dest('dev/')); 
+   .pipe(gulp.dest('release/')); 
 });
 
 gulp.task('default', ['build']);

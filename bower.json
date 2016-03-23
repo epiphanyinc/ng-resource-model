@@ -9,7 +9,7 @@
   "moduleType": [],
   "license": "MIT",
   "ignore": [
-    "**/.*",
+    "Gulpfile.js", 
     "node_modules",
     "bower_components",
     "test",

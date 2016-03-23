@@ -1,0 +1,1 @@
+!function(){function e(e){return function(o){var t=angular.extend({get:{method:"GET"},query:{method:"GET",isArray:!0},put:{method:"PUT"},post:{method:"POST"},"delete":{method:"DELETE"}},o.actions);return e(o.url||"",o.params,t)}}angular.module("yodaResourceModel",[]).factory("yodaResourceModel",e),e.$inject=["$resource"]}();

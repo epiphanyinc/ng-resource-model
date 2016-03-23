@@ -1,11 +1,12 @@
 {
   "name": "angular-resource-model",
   "homepage": "https://github.com/henriquecustodia/angular-resource-model",
-  "authors": [
-    "Henrique Custodia Martins <martinshenrique8@gmail.com>"
-  ],
+  "author": {
+      "name": "Henrique Custódia Martins",
+      "email": "martinshenrique8@gmail.com"
+  },
   "description": "",
-  "main": "resource-model.js",
+  "main": "dev/resource-model.js",
   "moduleType": [],
   "license": "MIT"
 }

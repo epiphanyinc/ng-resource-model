@@ -1,1 +1,1 @@
-# angular-resource-model
+# yoda-resource-model 

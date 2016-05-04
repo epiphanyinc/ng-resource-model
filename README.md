@@ -1,6 +1,6 @@
-### Model  than abstracts the creation of the resources, thus making a pattern to easy use and fast.
+### Model than abstracts the creation of the resources, thus making a pattern to use ngResource easily and fastly.
 
-### quick start
+### How to install
 `bower i yoda-resource-model`
 
 # Dependencies

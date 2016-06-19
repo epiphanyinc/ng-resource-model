@@ -1,6 +1,6 @@
-(function() {
-    angular.module('yodaResourceModel', [])
-        .factory('yodaResourceModel', resourceModel)
+(function () {
+    angular.module('ngResourceModel', [])
+        .factory('ngResourceModel', resourceModel)
 
     resourceModel.$inject = ['$resource'];
 
@@ -25,7 +25,13 @@
                 }
             }, conf.actions);
 
-            return $resource(conf.url || '', conf.params, actions);
-        }
+            var _resource = $resource(conf.url || '', conf.params, actions);
+
+            _resource.findById = function (id) {
+                return _resource.get({ id: id });
+            };
+
+            return _resource;
+        };
     }
 } ());

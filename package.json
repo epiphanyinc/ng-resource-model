@@ -1,5 +1,5 @@
 {
-  "name": "yoda-resource-model",
+  "name": "ngy-resource-model",
   "version": "0.1.0",
   "description": "",
   "main": "Gulpfile.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/henriquecustodia/yoda-resource-model.git"
+    "url": "git+https://github.com/epiphanyinc/ng-resource-model.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/henriquecustodia/yoda-resource-model/issues"
+    "url": "https://github.com/epiphanyinc/ng-resource-model/issues"
   },
-  "homepage": "https://github.com/henriquecustodia/yoda-resource-model#readme",
+  "homepage": "https://github.com/epiphanyinc/ng-resource-model#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-minify": "0.0.7"

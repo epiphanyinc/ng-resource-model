@@ -1,6 +1,8 @@
-(function () {
-    angular.module('ngResourceModel', [])
-        .factory('ngResourceModel', resourceModel)
+(function (angular) {
+    'use strict';
+
+    angular.module('ngyResourceModel', [])
+        .factory('ngyResourceModel', resourceModel)
 
     resourceModel.$inject = ['$resource'];
 
@@ -25,13 +27,7 @@
                 }
             }, conf.actions);
 
-            var _resource = $resource(conf.url || '', conf.params, actions);
-
-            _resource.findById = function (id) {
-                return _resource.get({ id: id });
-            };
-
-            return _resource;
+            return $resource(conf.url || '', conf.params, actions);
         };
     }
-} ());
+} (window.angular));

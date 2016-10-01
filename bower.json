@@ -1,6 +1,6 @@
 {
-    "name": "yoda-resource-model",
-    "homepage": "https://github.com/henriquecustodia/yoda-resource-model",
+    "name": "ngy-resource-model",
+    "homepage": "https://github.com/epiphanyinc/ng-resource-model",
     "authors": [
         "Henrique Custodia"
     ],
@@ -8,7 +8,7 @@
         "resource",
         "angular",
         "model",
-        "yoda"
+        "ngy"
     ],
     "description": "",
     "main": "",

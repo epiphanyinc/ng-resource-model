@@ -1,4 +1,4 @@
-# ng-resource-model.
+# ng-resource-model
 
 This AngularJS factory runs on top of $resource service. It is useful to set a default pattern to http methods and custom actions.
 

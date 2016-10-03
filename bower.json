@@ -1,24 +1,24 @@
 {
     "name": "ngy-resource-model",
+    "description": "It is an Angular directive to set a model to ng-resource service",
     "homepage": "https://github.com/epiphanyinc/ng-resource-model",
     "authors": [
-        "Henrique Custodia"
+        "Henrique Custodia<martinshenrique8@gmail.com>"
     ],
+    "version": "1.0.0",
     "keywords": [
         "resource",
         "angular",
         "model",
         "ngy"
     ],
-    "description": "",
-    "main": "",
+    "main": "release/resource-model.js",
     "moduleType": [],
     "license": "MIT",
     "ignore": [
         "Gulpfile.js",
         "node_modules",
         "bower_components",
-        "test",
-        "tests"
+        ".gitignore"
     ]
 }

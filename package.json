@@ -1,17 +1,14 @@
 {
   "name": "ngy-resource-model",
-  "version": "0.1.0",
-  "description": "",
-  "main": "Gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.0",
+  "description": "It is an Angular directive to set a model to ng-resource service",
+  "main": "release/resource-model.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/epiphanyinc/ng-resource-model.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Henrique Custódia<martinshenrique8@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/epiphanyinc/ng-resource-model/issues"
   },
